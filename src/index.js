@@ -4,13 +4,14 @@ import './index.css';
 import App from './App';
 import Home from './views/Home';
 import reportWebVitals from './reportWebVitals';
-import { store } from './app/store'
 import { Provider } from 'react-redux'
+import { PersistGate } from 'redux-persist/integration/react';
 import { Auth0Provider } from '@auth0/auth0-react';
+import { store, persistor } from './app/store';
 
 import {
-  createBrowserRouter,
   RouterProvider,
+  createBrowserRouter,
 } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -36,7 +37,10 @@ root.render(
       }}
     >
       <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+
           <RouterProvider router={router} />
+      </PersistGate>
       </Provider>
     </Auth0Provider>
   </React.StrictMode>

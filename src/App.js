@@ -1,24 +1,18 @@
-// src/App.js
-
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Provider } from 'react-redux';
-import { PersistGate } from 'redux-persist/integration/react';
-import { store, persistor } from './app/store';
-import ArtistDetails from './components/molecules/ArtistDetails';
-import FavoritesPanel from './components/molecules/FavoritesPanel';
+import {useSelector} from 'react-redux';
+
 import Header from './components/molecules/Header';
 import EventsList from './components/molecules/EventsList';
+import ArtistDetails from './components/molecules/ArtistDetails';
+import FavoritesPanel from './components/molecules/FavoritesPanel';
 import { selectEvents } from './app/features/eventsSlice';
 
 const App = () => {
 
-  // const events = useSelector(selectEvents);
-  const events = 15;
+  const events = useSelector(selectEvents);
 
   return (
-    <Provider store={store}>
-      {/* <PersistGate loading={null} persistor={persistor}> */}
       <main className="bg-gray-200 ">
         <Header />
 
@@ -28,28 +22,23 @@ const App = () => {
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
+              className='mb-10'
             >
-              <ArtistDetails numberOfEvents={events} />
+              <ArtistDetails numberOfEvents={events.length} />
             </motion.div>
             <div className='flex w-full justify-between'>
-              <div class="w-2/3 mr-5">
+              <div className="w-2/3 mr-5">
                 <EventsList />
               </div>
 
-              <div class="w-1/3">
+              <div className="w-1/3">
                 <FavoritesPanel />
               </div>
             </div>
           </div>
 
-          
-
-          
-
         </div>
       </main>
-      {/* </PersistGate> */}
-    </Provider>
   );
 };
 

@@ -1,19 +1,16 @@
-// src/components/SearchInput.js
 
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
-import { setSearchTerm, selectSearchTerm } from '../../app/features/searchSlice';
-import { setArtistInfo, selectArtistInfo } from '../../app/features/artistSlice';
-import { setEvents, selectEvents } from '../../app/features/eventsSlice';
 import { motion } from 'framer-motion';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { setEvents } from '../../app/features/eventsSlice';
+import { setArtistInfo } from '../../app/features/artistSlice';
+import { setSearchTerm, selectSearchTerm } from '../../app/features/searchSlice';
 
 const SearchInput = () => {
   const searchTerm = useSelector(selectSearchTerm);
   const dispatch = useDispatch();
-  const artistInfo = useSelector(selectArtistInfo);
-  const events = useSelector(selectEvents);
 
   const handleInputChange = (event) => {
     const { value } = event.target;
@@ -54,7 +51,7 @@ const SearchInput = () => {
       className='w-2/4'
     >
       <div className='w-full p-3 border rounded-full border-gray-300 flex'>
-        <span span className="mr-5 material-symbols-outlined  text-gray-500">
+        <span className="mr-5 material-symbols-outlined  text-gray-500">
           search
         </span>
         <input

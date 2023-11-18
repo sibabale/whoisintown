@@ -1,11 +1,12 @@
 
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { selectEvents } from '../../app/features/eventsSlice';
+
 import DateFormat from '../../utils/DateFormat';
-import events from '../../data/events.json';
+import { selectEvents } from '../../app/features/eventsSlice';
+
 const EventDetails = ({ eventId, onClose }) => {
-  // const events = useSelector(selectEvents);
+  const events = useSelector(selectEvents);
   const selectedEvent = events.find((event) => event.id === eventId);  
 
   if (!selectedEvent) {
@@ -15,7 +16,7 @@ const EventDetails = ({ eventId, onClose }) => {
   return (
     <div className="bg-white p-4 rounded shadow-md">
       <div className="flex justify-end">
-        <span className="material-symbols-outlined text-red-500"  onClick={onClose}>
+        <span className="material-symbols-outlined text-red-500 cursor-pointer"  onClick={onClose}>
           close
         </span>
       </div>
@@ -45,7 +46,6 @@ const EventDetails = ({ eventId, onClose }) => {
           <label className='mr-5'>Country: </label>
           <span>{selectedEvent.venue.country}</span>
         </li>
-
         
         <li>
           <label className='mr-5'>Postal Code: </label>
