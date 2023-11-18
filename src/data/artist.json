@@ -1,0 +1,24 @@
+{
+  "thumb_url": "https://photos.bandsintown.com/thumb/8647113.jpeg",
+  "mbid": "494e8d09-f85b-4543-892f-a5096aed1cd4",
+  "facebook_page_url": "http://www.facebook.com/6162457765",
+  "image_url": "https://photos.bandsintown.com/large/8647113.jpeg",
+  "tracker_count": 1895434,
+  "tracking": [],
+  "upcoming_event_count": 15,
+  "url": "https://www.bandsintown.com/a/75?came_from=267&app_id=YOUR_APP_ID",
+  "support_url": "",
+  "show_multi_ticket": true,
+  "name": "Mariah Carey",
+  "options": {
+      "display_listen_unit": false
+  },
+  "links": [
+      {
+          "type": "amazon",
+          "url": "https://music.amazon.com/artists/B000RSDIBI"
+      }
+  ],
+  "artist_optin_show_phone_number": false,
+  "id": "75"
+}

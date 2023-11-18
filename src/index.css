@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif;
+}
+
+p, span, small {
+font-family: 'Montserrat', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

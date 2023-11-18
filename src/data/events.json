@@ -1,0 +1,575 @@
+[
+  {
+      "id": "1029801785",
+      "url": "https://www.bandsintown.com/e/1029801785?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-11-17T19:30:00",
+      "title": "",
+      "description": "",
+      "artist": {
+          "id": "75",
+          "name": "Mariah Carey",
+          "url": "https://www.bandsintown.com/a/75?came_from=267&app_id=YOUR_APP_ID",
+          "mbid": "494e8d09-f85b-4543-892f-a5096aed1cd4",
+          "options": {
+              "display_listen_unit": false
+          },
+          "tracking": [],
+          "image_url": "https://photos.bandsintown.com/large/8647113.jpeg",
+          "thumb_url": "https://photos.bandsintown.com/thumb/8647113.jpeg",
+          "facebook_page_url": "http://www.facebook.com/6162457765",
+          "tracker_count": 1895434,
+          "upcoming_event_count": 15,
+          "support_url": "",
+          "links": [
+              {
+                  "type": "amazon",
+                  "url": "https://music.amazon.com/artists/B000RSDIBI"
+              }
+          ],
+          "artist_optin_show_phone_number": false,
+          "show_multi_ticket": true
+      },
+      "venue": {
+          "location": "Los Angeles, CA",
+          "name": "Hollywood Bowl",
+          "latitude": "34.112224",
+          "longitude": "-118.3391279",
+          "street_address": "2301 N Highland Ave",
+          "postal_code": "90068",
+          "city": "Los Angeles",
+          "country": "United States",
+          "region": "CA"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029801785?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-11-17T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029917670",
+      "url": "https://www.bandsintown.com/e/1029917670?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-11-19T19:00:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Los Angeles, CA",
+          "name": "Hollywood Bowl",
+          "latitude": "34.112224",
+          "longitude": "-118.3391279",
+          "street_address": "2301 N Highland Ave",
+          "postal_code": "90068",
+          "city": "Los Angeles",
+          "country": "United States",
+          "region": "CA"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029917670?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-20T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-11-19T19:00:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029802048",
+      "url": "https://www.bandsintown.com/e/1029802048?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-11-21T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Denver, CO",
+          "name": "Ball Arena",
+          "latitude": "39.7486519",
+          "longitude": "-105.0075988",
+          "street_address": "1000 Chopper Cir",
+          "postal_code": "80204",
+          "city": "Denver",
+          "country": "United States",
+          "region": "CO"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029802048?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-11-21T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029802077",
+      "url": "https://www.bandsintown.com/e/1029802077?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-11-24T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Kansas City, MO",
+          "name": "T-Mobile Center",
+          "latitude": "39.0974667",
+          "longitude": "-94.5801529",
+          "street_address": "1407 Grand Blvd",
+          "postal_code": "64106",
+          "city": "Kansas City",
+          "country": "United States",
+          "region": "MO"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029802077?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-11-24T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029808196",
+      "url": "https://www.bandsintown.com/e/1029808196?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-11-27T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Toronto, ON",
+          "name": "Scotiabank Arena",
+          "latitude": "43.643466",
+          "longitude": "-79.379142",
+          "street_address": "40 Bay Street",
+          "postal_code": "M5J 2X2",
+          "city": "Toronto",
+          "country": "Canada",
+          "region": "ON"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029808196?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-11-27T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029806482",
+      "url": "https://www.bandsintown.com/e/1029806482?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-11-29T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Montreal, QC",
+          "name": "Bell Centre",
+          "latitude": "45.4960667",
+          "longitude": "-73.5693153",
+          "street_address": "1909 Avenue des Canadiens-de-Montréal",
+          "postal_code": "H4B 5G0",
+          "city": "Montreal",
+          "country": "Canada",
+          "region": "QC"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029806482?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-11-29T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029801931",
+      "url": "https://www.bandsintown.com/e/1029801931?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-12-01T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Detroit, MI",
+          "name": "Little Caesars Arena",
+          "latitude": "42.3411026",
+          "longitude": "-83.0552673",
+          "street_address": "2645 Woodward Ave",
+          "postal_code": "48201",
+          "city": "Detroit",
+          "country": "United States",
+          "region": "MI"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029801931?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-12-01T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029802325",
+      "url": "https://www.bandsintown.com/e/1029802325?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-12-03T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Chicago, IL",
+          "name": "United Center",
+          "latitude": "41.8806908",
+          "longitude": "-87.6741759",
+          "street_address": "1901 W Madison St",
+          "postal_code": "60612",
+          "city": "Chicago",
+          "country": "United States",
+          "region": "IL"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029802325?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-12-03T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029802061",
+      "url": "https://www.bandsintown.com/e/1029802061?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-12-05T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Pittsburgh, PA",
+          "name": "PPG Paints Arena",
+          "latitude": "40.4393097",
+          "longitude": "-79.98955289999999",
+          "street_address": "1001 Fifth Avenue",
+          "postal_code": "15219",
+          "city": "Pittsburgh",
+          "country": "United States",
+          "region": "PA"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029802061?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-12-05T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1030012948",
+      "url": "https://www.bandsintown.com/e/1030012948?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-12-07T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Cleveland, OH",
+          "name": "Rocket Mortgage FieldHouse",
+          "latitude": "41.4965767",
+          "longitude": "-81.6880762",
+          "street_address": "1 Center Court",
+          "postal_code": "44115",
+          "city": "Cleveland",
+          "country": "United States",
+          "region": "OH"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-11-03T09:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-12-07T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1030013524",
+      "url": "https://www.bandsintown.com/e/1030013524?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-12-09T19:30:00",
+      "title": "",
+      "description": "In the best interest of fans and staff, the Event Organizer will continue to monitor local COVID-19 trends and meet or exceed protocols mandated by local governments. By purchasing tickets to this event, you agree to abide by the health and safety measures in effect at the time of the event, which may include, but not be limited to, wearing masks, providing proof of vaccination status and/or providing proof of negative COVID-19 test. Government mandates, venue protocols, and event requirements are subject to change. For more information, please search your event on msg.com.",
+      "venue": {
+          "location": "New York, NY",
+          "name": "Madison Square Garden",
+          "latitude": "40.7505045",
+          "longitude": "-73.9934387",
+          "street_address": "4 Pennsylvania Plz",
+          "postal_code": "10001",
+          "city": "New York",
+          "country": "United States",
+          "region": "NY"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1030013524?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-11-03T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-12-09T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029802012",
+      "url": "https://www.bandsintown.com/e/1029802012?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-12-11T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Boston, MA",
+          "name": "TD Garden",
+          "latitude": "42.366198",
+          "longitude": "-71.062146",
+          "street_address": "100 Legends Way",
+          "postal_code": "02114",
+          "city": "Boston",
+          "country": "United States",
+          "region": "MA"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029802012?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-12-11T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029801773",
+      "url": "https://www.bandsintown.com/e/1029801773?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-12-13T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Philadelphia, PA",
+          "name": "Wells Fargo Center",
+          "latitude": "39.9012015",
+          "longitude": "-75.17197949999999",
+          "street_address": "3601 S Broad St",
+          "postal_code": "19148",
+          "city": "Philadelphia",
+          "country": "United States",
+          "region": "PA"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029801773?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-12-13T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029802229",
+      "url": "https://www.bandsintown.com/e/1029802229?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-12-15T19:30:00",
+      "title": "",
+      "description": "",
+      "venue": {
+          "location": "Baltimore, MD",
+          "name": "CFG Bank Arena",
+          "latitude": "39.2885729",
+          "longitude": "-76.6187071",
+          "street_address": "201 W Baltimore St",
+          "postal_code": "21201",
+          "city": "Baltimore",
+          "country": "United States",
+          "region": "MD"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029802229?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-12-15T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  },
+  {
+      "id": "1029801942",
+      "url": "https://www.bandsintown.com/e/1029801942?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "datetime": "2023-12-17T19:30:00",
+      "title": "",
+      "description": "In the best interest of fans and staff, the Event Organizer will continue to monitor local COVID-19 trends and meet or exceed protocols mandated by local governments. By purchasing tickets to this event, you agree to abide by the health and safety measures in effect at the time of the event, which may include, but not be limited to, wearing masks, providing proof of vaccination status and/or providing proof of negative COVID-19 test. Government mandates, venue protocols, and event requirements are subject to change. For more information, please search your event on msg.com.",
+      "venue": {
+          "location": "New York, NY",
+          "name": "Madison Square Garden",
+          "latitude": "40.7505045",
+          "longitude": "-73.9934387",
+          "street_address": "4 Pennsylvania Plz",
+          "postal_code": "10001",
+          "city": "New York",
+          "country": "United States",
+          "region": "NY"
+      },
+      "lineup": [
+          "Mariah Carey"
+      ],
+      "offers": [
+          {
+              "type": "Tickets",
+              "url": "https://www.bandsintown.com/t/1029801942?app_id=YOUR_APP_ID&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+              "status": "available"
+          }
+      ],
+      "artist_id": "75",
+      "on_sale_datetime": "2023-10-06T10:00:00",
+      "festival_start_date": "",
+      "festival_end_date": "",
+      "festival_datetime_display_rule": "",
+      "starts_at": "2023-12-17T19:30:00",
+      "ends_at": "",
+      "datetime_display_rule": "datetime",
+      "bandsintown_plus": false
+  }
+]
