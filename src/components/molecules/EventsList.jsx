@@ -16,7 +16,6 @@ const EventsList = () => {
   const selectedEvent  = events[0].id;
 
   const addToFavoritesHandler = (eventId) => {
-    console.log(eventId)
     dispatch(addToFavorites(eventId));
   };
 
@@ -38,7 +37,6 @@ const EventsList = () => {
       <h3 className="text-lg font-semibold mb-2">Events</h3>
       <ul className="">
         {events.map((event, index) => (
-          console.log(DateFormat(event.datetime, 'short', true)),
           <li
             key={index}
             className="p-4 border-b border-gray-400 mb-2"

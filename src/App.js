@@ -7,7 +7,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from './app/store';
 import ArtistDetails from './components/molecules/ArtistDetails';
 import FavoritesPanel from './components/molecules/FavoritesPanel';
-import Header from './components/atoms/Header';
+import Header from './components/molecules/Header';
 import EventsList from './components/molecules/EventsList';
 import { selectEvents } from './app/features/eventsSlice';
 
