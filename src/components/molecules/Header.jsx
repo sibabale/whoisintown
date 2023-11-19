@@ -10,14 +10,6 @@ const Header = () => {
       <div className="flex w-4/5">
         <SearchInput/>
       </div>
-      <div className="flex">
-        <button className="p-3 text-md text-teal-500 font-semibold">
-          Signup
-        </button>
-        <button className="p-3">
-          Login
-        </button>
-      </div>
     </header>
   )
 }
