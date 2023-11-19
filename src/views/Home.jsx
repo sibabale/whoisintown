@@ -1,26 +1,28 @@
 import {useEffect} from 'react'
-import {ReactComponent as Logo} from '../assets/logo.svg';
-import ConcertImage from '../assets/nicholas-green-nPz8akkUmDI-unsplash.jpeg';
 import { useAuth0 } from "@auth0/auth0-react";
 import { useNavigate } from "react-router-dom";
+import ConcertImage from '../assets/nicholas-green-nPz8akkUmDI-unsplash.jpeg';
+import {ReactComponent as Logo} from '../assets/logo.svg';
 
+export const Home = () => {
+  const navigate = useNavigate();
+  const { isAuthenticated, loginWithRedirect } = useAuth0();
 
-export const Home = (props) => {
-  const { loginWithRedirect, isAuthenticated } = useAuth0();
-
-let navigate = useNavigate();
+  const handleLogin = () => {
+    loginWithRedirect();
+  };
 
 useEffect(() => {
   if (isAuthenticated){
-     return navigate("/");
+    return navigate("/dashboard");
+  } else {
+    return navigate("/");
   }
 },[isAuthenticated]);
 
   return(
     <div 
-      className=''
     >
-
     <div className='flex'>
 
       <div className='w-1/2 p-5' >
@@ -32,7 +34,7 @@ useEffect(() => {
 
           <div className='mt-5'>
             <button 
-              onClick={() => loginWithRedirect()}
+              onClick={handleLogin}
               className='bg-teal-500 py-2 px-4 text-white rounded-full'>
               Get Started
             </button>
