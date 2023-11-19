@@ -8,7 +8,7 @@ import { ReactComponent as FacebookIcon} from '../../assets/facebook-icon.svg';
 
 const ArtistDetails = ({numberOfEvents}) => {
   const artistInfo = useSelector(selectArtistInfo);
- 
+  
   return (
     artistInfo ? (
       <section 
@@ -30,7 +30,6 @@ const ArtistDetails = ({numberOfEvents}) => {
         </div>
       </section>
     ): (
-
       <div className="bg-white my-5 rounded-lg flex" style={{width: '1016px', height: '242px'}}>
         <div className="h-full w-1/4 rounded-l-lg bg-gray-300"></div>
         <div className='flex flex-col justify-center w-full ml-5 '>
@@ -40,7 +39,7 @@ const ArtistDetails = ({numberOfEvents}) => {
           <div className="h-4 my-2 w-1/4 rounded-lg bg-gray-300"></div>
         </div>
       </div>
-      )
+    )
   );
 };
 
