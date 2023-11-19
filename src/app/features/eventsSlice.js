@@ -8,6 +8,10 @@ const eventsSlice = createSlice({
     setEvents: (state, action) => {
       state.events = action.payload;
     },
+    clearEvents: (state) => {
+      state.events = [];
+      state.favoriteEventIds = [];
+    },
     addToFavorites: (state, action) => {
       const eventToAdd = state.events.find((event) => event.id === action.payload);
 
@@ -22,7 +26,7 @@ const eventsSlice = createSlice({
   },
 });
 
-export const { setEvents, addToFavorites, removeFromFavorites } = eventsSlice.actions;
+export const { setEvents, clearEvents,  addToFavorites, removeFromFavorites } = eventsSlice.actions;
 export const selectEvents = (state) => state.events.events;
 export const selectFavorites = (state) => state.events.favorites;
 export default eventsSlice.reducer;

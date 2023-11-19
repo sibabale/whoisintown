@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { setEvents } from '../../app/features/eventsSlice';
-import { setArtistInfo } from '../../app/features/artistSlice';
+import { setEvents, clearEvents } from '../../app/features/eventsSlice';
+import { setArtistInfo, clearArtistInfo } from '../../app/features/artistSlice';
 import { setSearchTerm, selectSearchTerm } from '../../app/features/searchSlice';
 
 const SearchInput = () => {
@@ -38,8 +38,11 @@ const SearchInput = () => {
   };
 
   useEffect(() => {
-    if (searchTerm) {
+    if (searchTerm.length > 0) {
       handleSearch();
+    } else {
+      dispatch(clearEvents());
+      dispatch(clearArtistInfo());
     }
   }, [searchTerm]);
 
