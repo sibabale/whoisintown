@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import Home from './views/Home';
+import Dashboard from './views/Dashboard';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react';
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/dashboard",
-    element: <App />,
+    element: <Dashboard />,
   },
 ]);
 
