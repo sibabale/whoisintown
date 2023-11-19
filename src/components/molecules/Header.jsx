@@ -2,7 +2,7 @@ import React from 'react'
 import SearchInput from '../atoms/SearchInput'
 import { useAuth0 } from "@auth0/auth0-react";
 
-const Header = (props) => {
+const Header = () => {
   const { logout, loginWithRedirect, isAuthenticated } = useAuth0();
 
   return(

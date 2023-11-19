@@ -9,8 +9,8 @@ import { setArtistInfo } from '../../app/features/artistSlice';
 import { setSearchTerm, selectSearchTerm } from '../../app/features/searchSlice';
 
 const SearchInput = () => {
-  const searchTerm = useSelector(selectSearchTerm);
   const dispatch = useDispatch();
+  const searchTerm = useSelector(selectSearchTerm);
 
   const handleInputChange = (event) => {
     const { value } = event.target;
