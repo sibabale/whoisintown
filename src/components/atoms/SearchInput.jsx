@@ -44,7 +44,6 @@ const SearchInput = () => {
     }else {
       dispatch(clearEvents());
       dispatch(clearArtistInfo());
-      console.log("value is empty")
     }
   }, [searchTerm]);
 
