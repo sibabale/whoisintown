@@ -8,9 +8,12 @@ const artistSlice = createSlice({
     setArtistInfo: (state, action) => {
       state.artistInfo = action.payload;
     },
+    clearArtistInfo: (state) => {
+      state.artistInfo = null
+    },
   },
 });
 
-export const { setArtistInfo } = artistSlice.actions;
+export const { clearArtistInfo, setArtistInfo } = artistSlice.actions;
 export const selectArtistInfo = (state) => state.artist.artistInfo;
 export default artistSlice.reducer;

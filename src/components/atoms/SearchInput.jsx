@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { setEvents } from '../../app/features/eventsSlice';
-import { setArtistInfo } from '../../app/features/artistSlice';
+import { setEvents, clearEvents } from '../../app/features/eventsSlice';
+import { clearArtistInfo, setArtistInfo } from '../../app/features/artistSlice';
 import { setSearchTerm, selectSearchTerm } from '../../app/features/searchSlice';
 
 const SearchInput = () => {
@@ -19,17 +19,18 @@ const SearchInput = () => {
 
   const handleSearch = async () => {
     try {
-      const artistResponse = await axios.get(
-        `https://rest.bandsintown.com/v3/artists/${encodeURIComponent(searchTerm)}?app_id=YOUR_APP_ID`
-      );
-
-      dispatch(setArtistInfo(artistResponse.data));
-
-      const eventsResponse = await axios.get(
-        `https://rest.bandsintown.com/v3/artists/${encodeURIComponent(searchTerm)}/events?app_id=YOUR_APP_ID`
-      );
-
-      dispatch(setEvents(eventsResponse.data || []));
+      
+        const artistResponse = await axios.get(
+          `https://rest.bandsintown.com/v3/artists/${encodeURIComponent(searchTerm)}?app_id=YOUR_APP_ID`
+        );
+  
+        dispatch(setArtistInfo(artistResponse.data));
+  
+        const eventsResponse = await axios.get(
+          `https://rest.bandsintown.com/v3/artists/${encodeURIComponent(searchTerm)}/events?app_id=YOUR_APP_ID`
+        );
+  
+        dispatch(setEvents(eventsResponse.data || []));
     } catch (error) {
       console.error('Error fetching data:', error);
       dispatch(setArtistInfo(null));
@@ -38,8 +39,12 @@ const SearchInput = () => {
   };
 
   useEffect(() => {
-    if (searchTerm) {
+    if (searchTerm.length > 0) {
       handleSearch();
+    }else {
+      dispatch(clearEvents());
+      dispatch(clearArtistInfo());
+      console.log("value is empty")
     }
   }, [searchTerm]);
 
