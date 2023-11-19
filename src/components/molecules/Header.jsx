@@ -1,15 +1,8 @@
 import React from 'react'
-import { useAuth0 } from "@auth0/auth0-react";
 
 import SearchInput from '../atoms/SearchInput'
 
 const Header = () => {
-  const {logout, loginWithRedirect, isAuthenticated } = useAuth0();
-
-  const handleLogout = () => {
-    logout();
-  };
-
 
   return(
     <header className="p-5 border-b border-gray-300 flex items-center fixed bg-white w-full">
@@ -18,24 +11,12 @@ const Header = () => {
         <SearchInput/>
       </div>
       <div className="flex">
-        {
-          isAuthenticated ? (
-            <button onClick={handleLogout} className="p-3 text-md text-teal-500 font-semibold">
-              Logout
-            </button>
-          ): (
-          <>
-            <button onClick={() => loginWithRedirect()} className="p-3 text-md text-teal-500 font-semibold">
-              Signup
-            </button>
-            <button onClick={() => loginWithRedirect()} className="p-3">
-              Login
-            </button>
-          </>
-          )
-        }
-        
-      
+        <button className="p-3 text-md text-teal-500 font-semibold">
+          Signup
+        </button>
+        <button className="p-3">
+          Login
+        </button>
       </div>
     </header>
   )
